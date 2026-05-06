@@ -22,3 +22,6 @@ document.getElementById("formContato").addEventListener("submit", function(e) {
     // Limpar formulário
     document.getElementById("formContato").reset();
 });
+function toggleTema() {
+    document.body.classList.toggle("dark");
+}
